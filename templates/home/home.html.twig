@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+{% block body %}
+<main>
+    <section class='banner'>
+        <div>
+            <h1>Bienvenue sur Kids Learning</h1>
+        </div>
+        <a href="">Decouvrir</a>
+    </section>
+    
+    <section>
+        <div class='date'>
+            <p>Aujourd'hui on est le 06/01/2025</p>
+        </div>
+        <div class="title">
+            <h2>Temoignages</h2>
+            <p>D'ecouvrez ce que les gens disent de notre platforme</p>
+        </div>
+        <div class="container_temoignage">
+            <div class="temoignage">
+                <img src="{{asset('img/parent-1.jpeg')}}" alt="photo parent" class='img-temoignage'>
+                <p>"Ma fille a beaucoup appris grace a cette platforme. Les cours sont tres informatifs et faciles a comprendre"</p>
+                <p id='name-temoignage'>- Therese Dupont</p>
+            </div>
+            <div class="temoignage">
+                <img src="{{asset('img/parent-2.jpeg')}}" alt="photo parent" class='img-temoignage'>
+                <p>"Ma fille a beaucoup appris grace a cette platforme. Les cours sont tres informatifs et faciles a comprendre"</p>
+                <p id='name-temoignage'>- Therese Dupont</p>
+            </div>
+            <div class="temoignage">
+                <img src="{{asset('img/parent-3.jpeg')}}" alt="photo parent" class='img-temoignage'>
+                <p>"Ma fille a beaucoup appris grace a cette platforme. Les cours sont tres informatifs et faciles a comprendre"</p>
+                <p id='name-temoignage'>- Therese Dupont</p>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

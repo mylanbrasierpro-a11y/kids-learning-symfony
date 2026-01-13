@@ -1,0 +1,124 @@
+.nav-bar{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header img {
+    max-height: 150px;
+    height: auto;
+    width: auto;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    margin: 35px;
+}
+
+.nav-bar li{
+    font-size: 25px;
+}   
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+        background-color: #2C3E50;
+
+}
+
+.container_temoignage{
+    display: flex;
+    justify-content: center;
+    background-color: #ECF0F1;
+    margin: 0;
+    
+
+}
+.banner{
+    background-image: url(../img/banner.jpeg);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner h1 {
+    font-family: "Nunito";
+    color: #2C3E50;
+    font-size: 8rem;
+    text-align: center;
+    padding-top: 11rem;
+    text-shadow: white 1px 1px;
+    align-items: center;
+}
+
+.banner a {
+    color: white;
+    background-color: #E74C3C;
+    padding: 1.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-size: 25px;
+}
+
+body{
+    margin: 0;
+}
+.date{
+    text-align: center;
+    background-color: #ECF0F1;
+    margin: 0;
+}
+.title{
+    text-align: center;
+    background-color: #ECF0F1;
+    margin: 0;
+    font-size: 40px;
+
+}
+.temoignage{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 400px;
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.img-temoignage{
+    width: 180px;
+    border-radius: 100px;
+    height: 180px;
+    object-fit: cover;
+}
+#name-temoignage{
+    margin-left: 200px;
+}
+.footer-containt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+footer img {
+    max-height: 150px;
+    height: auto;
+    width: auto;
+}
+footer{
+    background-color: #2C3E50;
+}
+
+.backgroud-temoignage{
+    background-color: #ECF0F1;
+}
